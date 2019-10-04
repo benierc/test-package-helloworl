@@ -9,6 +9,7 @@ Source0:        testpackage-helloworld-1.0.tar.gz
 
 Requires(post): info
 Requires(preun): info
+BuildRequires: gcc
 
 %description
 A helloworld program from the packagecloud.io blog!
